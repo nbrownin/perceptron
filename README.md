@@ -13,4 +13,4 @@ Training and input files should look as follows:
 .#####.
 .#...#.
 .#...#.
-###.###```
+###.###
