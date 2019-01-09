@@ -77,7 +77,6 @@ if __name__ == "__main__":
         try:
             results = [a_classifier.evaluate_example(i), b_classifier.evaluate_example(i),
                        c_classifier.evaluate_example(i), d_classifier.evaluate_example(i)]
-            # print(results)
             if 1 in results:
                 print('This letter looks like:')
                 print(' + '.join([letters[x] for x in range(len(results)) if results[x] == 1]))
